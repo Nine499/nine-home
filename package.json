@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "vitepress": "2.0.0-alpha.16"
+  },
+  "scripts": {
+    "nine:dev": "vitepress dev docs",
+    "nine:build": "vitepress build docs",
+    "nine:preview": "vitepress preview docs",
+    "nine:time": "node -e \"const d=new Date();const p=n=>String(n).padStart(2,'0');console.log(d.getFullYear()+'.'+p(d.getMonth()+1)+'.'+p(d.getDate())+'.'+p(d.getHours())+p(d.getMinutes())+p(d.getSeconds()))\""
+  }
+}
