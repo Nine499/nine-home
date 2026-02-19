@@ -6,6 +6,9 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
   cleanUrls: true,
+  sitemap: {
+    hostname: "https://www.010811.xyz",
+  },
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
