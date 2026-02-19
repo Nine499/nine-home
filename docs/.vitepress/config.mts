@@ -9,6 +9,11 @@ export default defineConfig({
   sitemap: {
     hostname: "https://www.010811.xyz",
   },
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
+  },
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
@@ -29,5 +34,11 @@ export default defineConfig({
     lastUpdated: {
       text: "最后更新于",
     },
+    search: {
+      provider: "local",
+    },
+    darkModeSwitchLabel: "主题",
+    lightModeSwitchTitle: "切换到浅色模式",
+    darkModeSwitchTitle: "切换到深色模式",
   },
 });
